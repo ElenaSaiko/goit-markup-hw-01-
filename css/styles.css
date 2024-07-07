@@ -125,14 +125,11 @@ a {
 
 .page-hero {
   background: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .text-hero {
-  max-width: 496px;
-  margin: 0 auto;
-  padding-top: 188px;
-  padding-bottom: 188px;
-  margin-bottom: 48px;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
@@ -140,18 +137,25 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  max-width: 496px;
+  padding-bottom: 48px;
 }
 
 .button-hero {
-  background: #4d5ae5;
-  background-color: #4d5ae5;
-  font-family: "Roboto", sans-serif;
+  display: block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
+  background: #4d5ae5;
   cursor: pointer;
+  border-radius: 4px;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  margin: auto;
+  font-family: "Roboto", sans-serif;
 }
 
 .button:hover,
